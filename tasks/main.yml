@@ -21,6 +21,9 @@
 - include: setup-FreeBSD.yml
   when: ansible_os_family == 'FreeBSD'
 
+# Htpasswd configuration.
+- include: htpasswd.yml
+
 # Vhost configuration.
 - include: vhosts.yml
 

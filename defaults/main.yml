@@ -67,3 +67,8 @@ nginx_upstreams: []
 #     "srv2.example.com weight=3",
 #     "srv3.example.com"
 #   }
+nginx_htpasswd: []
+# - name: my_passwd
+#   users:
+#     - "user1:$apr1$GkbbaPW6$Etx8.x0d1V0T89RkAsQMe0"
+#     - "user2:$apr1$GkbbaPW6$Etx8.x0d1V0T89RkAsQMe0"
